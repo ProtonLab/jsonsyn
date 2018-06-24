@@ -1,8 +1,8 @@
 {
   "name": "jsonsyn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple json parser, linter and fixer",
-  "main": "src/index.js",
+  "main": "src/main.js",
   "repository": "https://github.com/ProtonLab/jsonsyn.git",
   "author": "MagicMarvMan <24806960+MagicMarvMan@users.noreply.github.com>",
   "license": "MIT",
@@ -14,5 +14,8 @@
   },
   "bin": {
     "jsonsyn": "src/main.js"
+  },
+  "scripts": {
+    "start": "node ."
   }
 }
