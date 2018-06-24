@@ -8,7 +8,7 @@ const jsonlint = require('jsonlint');
 
 // Constants
 const cwd    = process.cwd()
-const env    = process.env.NODE_ENV ? process.env.NODE_ENV : 'test'
+const env    = process.env.JSONSYN_ENV ? process.env.JSONSYN_ENV : 'test'
 const debug  = env == 'debug' ? true : false
 let exitcode = 0
 
