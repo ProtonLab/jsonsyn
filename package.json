@@ -1,0 +1,18 @@
+{
+  "name": "jsonsyn",
+  "version": "1.0.0",
+  "description": "A simple json parser, linter and fixer",
+  "main": "src/index.js",
+  "repository": "https://github.com/ProtonLab/jsonsyn.git",
+  "author": "MagicMarvMan <24806960+MagicMarvMan@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "argparse": "1.0.10",
+    "chalk": "2.4.1",
+    "jsonlint": "1.6.3"
+  },
+  "bin": {
+    "jsonsyn": "src/main.js"
+  }
+}
