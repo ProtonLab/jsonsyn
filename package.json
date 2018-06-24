@@ -1,6 +1,6 @@
 {
   "name": "jsonsyn",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A simple json parser, linter and fixer",
   "main": "src/index.js",
   "repository": "https://github.com/ProtonLab/jsonsyn.git",
